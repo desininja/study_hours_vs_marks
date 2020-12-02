@@ -1,4 +1,3 @@
 streamlit
 plotly==4.13.0
-Matplotlib.pyplot == 3.2.2
 PIL
