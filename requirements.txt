@@ -1,4 +1,4 @@
 #pipreqs
 streamlit
-plotly
+plotly==4.13.0
 PIL
