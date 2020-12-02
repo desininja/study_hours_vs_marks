@@ -7,7 +7,7 @@ import numpy as np
 
 
 import pickle
-#from PIL import Image
+from PIL import Image
 
 # file location:   /Users/HB/Desktop/python/Job-internship assessments/spark_grip
 
