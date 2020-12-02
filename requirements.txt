@@ -1,0 +1,2 @@
+streamlit
+plotly==4.13.0
