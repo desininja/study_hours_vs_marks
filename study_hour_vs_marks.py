@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
-from plotly.subplots import make_subplots
-import plotly.graph_objects as go
+#import plotly.express as px
+#from plotly.subplots import make_subplots
+#import plotly.graph_objects as go
 
 
 import pickle
-from PIL import Image
+#from PIL import Image
 
 # file location:   /Users/HB/Desktop/python/Job-internship assessments/spark_grip
 
@@ -29,12 +29,12 @@ def load_data():
 data = load_data()
 
 
-def plots(data):
-    st.subheader("Study hours Vs Marks Scatter plot")
-    fig = px.scatter(data, x = 'Hours', y = 'Scores')
-    st.plotly_chart(fig)
+#def plots(data):
+#    st.subheader("Study hours Vs Marks Scatter plot")
+#    fig = px.scatter(data, x = 'Hours', y = 'Scores')
+#    st.plotly_chart(fig)
     
-plots(data)
+#plots(data)
 
 
 def prediction_time(h):
