@@ -5,7 +5,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
-
+pip install pipreqs
 import pickle
 from PIL import Image
 
