@@ -1,4 +1,4 @@
-pipreqs
+#pipreqs
 streamlit
 plotly
 PIL
