@@ -20,7 +20,7 @@ def image_load():
 
 image_load()
 
-#@st.cache(persist=True)
+@st.cache(persist=True)
 def load_data():
     url = "http://bit.ly/w-data"
     data = pd.read_csv(url)
